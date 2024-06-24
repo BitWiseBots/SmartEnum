@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitWiseBots.SmartEnum", "src\BitWiseBots.SmartEnum.csproj", "{8044D9F5-543C-48BC-988C-35B1E3337BFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BEB79EA-0B27-4048-9FD1-8654DFB78DE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD7C66CC-77D7-4FC6-9BC6-DE0BC2146A8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitWiseBots.SmartEnum.Tests", "tests\BitWiseBots.SmartEnum.Tests.csproj", "{B20E02C6-40BF-402F-8BE8-9042F913F162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CCA63AC-AFD6-4E88-BBE3-772F8227F06D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+                        		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8044D9F5-543C-48BC-988C-35B1E3337BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8044D9F5-543C-48BC-988C-35B1E3337BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8044D9F5-543C-48BC-988C-35B1E3337BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8044D9F5-543C-48BC-988C-35B1E3337BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20E02C6-40BF-402F-8BE8-9042F913F162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20E02C6-40BF-402F-8BE8-9042F913F162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20E02C6-40BF-402F-8BE8-9042F913F162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20E02C6-40BF-402F-8BE8-9042F913F162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8044D9F5-543C-48BC-988C-35B1E3337BFF} = {5BEB79EA-0B27-4048-9FD1-8654DFB78DE2}
+		{B20E02C6-40BF-402F-8BE8-9042F913F162} = {CD7C66CC-77D7-4FC6-9BC6-DE0BC2146A8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51C76810-9B38-4538-852E-E62D9413858E}
+	EndGlobalSection
+EndGlobal
